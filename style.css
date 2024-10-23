@@ -334,8 +334,8 @@ font-size: 36px;
 
 /* Team  */
 .trainers{
-  grid-template-columns: repeat(1, 1fr);
-  margin: 0px auto;
+  grid-template-columns:1fr;
+  justify-items: center;
 }
 
 /* Footer  */
