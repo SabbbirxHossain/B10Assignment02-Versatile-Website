@@ -59,6 +59,45 @@ nav ul li a{
   display: none;
 }
 
+/* Banner  */
+.banner{
+  display: flex;
+  justify-content: space-between;
+  gap: 50px;
+  margin: 60px 0px;
+
+}
+.banner-title{
+color: rgb(255, 255, 255);
+font-size: 78px;
+font-weight: 900;
+}
+
+.banner-des{
+color: rgba(255, 255, 255, 0.5);
+font-size: 16px;
+font-weight: 400;
+margin: 30px 0px;
+}
+
+
+
+.btn-primary,
+.btn-transparent{
+color: rgb(255, 255, 255);
+font-size: 18px;
+font-weight: 600;
+border: none;
+border-radius: 42px;
+background: rgb(230, 83, 60);
+padding: 16px 40px 16px 40px;
+}
+.btn-transparent{
+background-color:transparent;
+border: 1px solid white;
+margin-left: 20px;
+}
+
 
 
 
@@ -75,6 +114,23 @@ nav ul li a{
   color: white;
   font-size: 40px;
 }
+
+/* navbar */
+.banner{
+  flex-direction: column;
+}
+
+.banner-title{
+font-size: 36px;
+}
+.banner-des{
+  width: 80%;
+}
+
+.banner img{
+  padding: 30px;
+}
+
 
 }
 
