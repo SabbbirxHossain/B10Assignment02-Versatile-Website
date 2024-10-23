@@ -118,8 +118,9 @@ margin-left: 20px;
 }
 
 .habit-cards{
- display: grid;
- grid-template-columns: repeat(4,1fr);
+  display: flex;
+  justify-content: space-between;
+  margin-top: 50px;
 }
 
 .habit-card{
@@ -183,17 +184,13 @@ font-size: 36px;
 
 /* Habit  */
 .title{
-  font-size: 32px;
+  font-size: 32px
 }
 
 .habit-cards{
-  grid-template-columns: repeat(1,1fr);
-  justify-items: center;
- }
-
-
-
-
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
 }
 
 
@@ -201,3 +198,4 @@ font-size: 36px;
 
 
 
+}
